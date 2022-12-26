@@ -1,0 +1,228 @@
+.body {
+    height: 100%;
+    width: 100%;
+}
+.host-view {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-sidebar {
+    background-color: #FFC7C7;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 20%;
+    align-content: center;
+}
+
+.right-sidebar-header,
+.left-sidebar-header {
+    text-align: center;
+    font-family: "Century Schoolbook";
+    text-decoration: underline;
+}
+
+.left-sidebar-text {
+    padding: 15px;
+    font-family: "Lucida Sans Unicode";
+    text-align: center;
+    max-height: 73vh;
+    overflow: auto;
+}
+
+.left-sidebar-rule {
+    background-color: #6b0022;
+    border-radius: 10px;
+    color: #cccccc;
+}
+
+#selected-rule {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #40E0D0;
+}
+
+#penalty-instruction {
+    text-align: center;
+    margin: -10px 10px 0px;
+    padding: 7px;
+    border-radius: 15px;
+    font-family: "Century Schoolbook";
+    text-decoration: underline;
+    font-weight: bold;
+    color: #e70000;
+}
+
+.penalty-button {
+    margin: 2px 10px 10px;
+    position: relative;
+    top:0;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: "Century Schoolbook", serif;
+    font-weight: bold;
+    border-style: hidden;
+    background-color: #4A0000;
+    color: #ffffff;
+}
+
+.submit-penalty {
+    margin: 10px 50px;
+    position: relative;
+    top:0;
+    height: 5%;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: "Century Schoolbook", serif;
+    font-weight: bold;
+    border-style: hidden;
+    background-color: #4A0000;
+    color: #ffffff;
+}
+
+textarea {
+    resize: none;
+    overflow-y: scroll;
+}
+
+.notes-area {
+    background-color: #FFC7C7;
+    font-size: 14px;
+    font-family: "Lucida Sans Unicode";
+    height: 100%;
+    width: 96%;
+    padding: 5px;
+    resize: none;
+    margin-right: 3px;
+    flex-grow: 1;
+    border-style: hidden;
+}
+
+.notes-area::-webkit-scrollbar {
+    display: none;
+}
+
+.board {
+    background-color: #00452C;
+    height: 100vh;
+    width: 60%;
+    overflow: hidden;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #CDEAFF;
+    height: 100vh;
+    width: 20%;
+}
+
+.message-history {
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y:   auto;
+    overflow-wrap: break-word;
+    position:   absolute;
+    bottom: 10%;
+    width: 100%;;
+    max-height: 80%;
+}
+.chat-message {
+    font-family: "Lucida Sans Unicode", serif;
+    flex-shrink: 1;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.chat-input {
+    margin: auto;
+    box-sizing:border-box;
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    height: 6%;
+    border-radius: 21px;
+    border: hidden;
+    padding: 10px;
+    background-color: #E4F5FF;
+}
+
+.card {
+    width: min(10vh, 300px) !important;
+}
+
+#selected-player-card {
+    padding-bottom: 10px;
+}
+
+.dot {
+    height: 2vh;
+    width: 2vh;
+    background-color: #ff3434;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 1vh;
+}
+
+#current-player-name {
+    text-align: center;
+    color: #cccccc;
+    font-family: "Comic Sans MS";
+    margin: 1vh;
+}
+
+#player-hand {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%,0);
+    horiz-align: center;
+    margin: auto !important;
+    z-index: 1;
+    overflow: visible!important;
+}
+
+#verbal-rule-input {
+    position: absolute;
+    text-align: center;
+    left: 40%;
+    width: 20%;
+    height: 3%;
+    bottom: 5%;
+    border-radius: 10px;
+    border-style: hidden;
+    padding: 3px;
+}
+
+#play-button {
+    position: absolute;
+    border-style: hidden;
+    border-radius: 10px;
+    left: 48%;
+    width: 4%;
+    bottom: 2%;
+}
+
+#deck {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-125%,-50%);
+}
+
+#discard-pile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(25%,-50%);
+}
+
+#hidden-deck {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-125%,-50%);
+}

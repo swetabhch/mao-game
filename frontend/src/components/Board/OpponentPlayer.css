@@ -1,0 +1,102 @@
+.opponent-player {
+    text-align: center;
+    color: #cccccc;
+    font-family: "Comic Sans MS";
+}
+
+.opponent-player-name {
+    margin: 1vh;
+}
+
+/*TWO OPPONENTS*/
+#p1of2 {
+    /*translate(-36%,105%)*/
+    position: absolute;
+    top: 45vh;
+    left: 30vw;
+    transform: translate(-50%,-50%) rotate(-90deg);
+}
+#p2of2 {
+    position: absolute;
+    top: 45vh;
+    left: 70vw;
+    transform: translate(-50%,-50%) rotate(90deg);
+}
+
+/*THREE OPPONENTS*/
+#p1of3 {
+    position: absolute;
+    top: 45vh;
+    left: 30vw;
+    transform: translate(-50%,-50%) rotate(-90deg);
+}
+#p2of3 {
+    position: absolute;
+    top: 15vh;
+    left: 50vw;
+    transform: translate(-50%,-50%);
+}
+#p3of3 {
+    position: absolute;
+    top: 45vh;
+    left: 70vw;
+    transform: translate(-50%,-50%) rotate(90deg);
+}
+
+/*FOUR OPPONENTS*/
+#p1of4 {
+    position: absolute;
+    top: 50vh;
+    left: 30vw;
+    transform: translate(-50%,-50%) rotate(-90deg);
+}
+#p2of4 {
+    position: absolute;
+    top: 20vh;
+    left: 39vw;
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#p3of4 {
+    position: absolute;
+    top: 20vh;
+    left: 61vw;
+    transform: translate(-50%,-50%) rotate(30deg);
+}
+#p4of4 {
+    position: absolute;
+    top: 50vh;
+    left: 70vw;
+    transform: translate(-50%,-50%) rotate(90deg);
+}
+
+/*FIVE OPPONENTS*/
+#p1of5 {
+    position: absolute;
+    top: 55vh;
+    left: 30vw;
+    transform: translate(-50%,-50%) rotate(-90deg);
+}
+#p2of5 {
+    position: absolute;
+    top: 23vh;
+    left: 32vw;
+    transform: translate(-50%,-50%) rotate(-50deg);
+}
+#p3of5 {
+    position: absolute;
+    top: 15vh;
+    left: 50vw;
+    transform: translate(-50%,-50%);
+}
+#p4of5 {
+    position: absolute;
+    top: 23vh;
+    left: 68vw;
+    transform: translate(-50%,-50%) rotate(50deg);
+}
+#p5of5 {
+    position: absolute;
+    top: 55vh;
+    left: 70vw;
+    transform: translate(-50%,-50%) rotate(90deg);
+}

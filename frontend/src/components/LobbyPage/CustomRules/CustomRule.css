@@ -1,0 +1,127 @@
+.rule-input-boxes{
+    display: flex;
+    flex-direction: row;
+    color: #cccccc;
+    width: 100%;
+}
+
+#existing-rule-header{
+    color: #cccccc;
+    font-size: 3vh;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    padding: 10px;
+}
+
+.rules-list {
+    margin: 15px;
+    flex-grow: 1;
+    color: #cccccc;
+    display: block;
+    overflow: auto;
+    max-height: 11vh;
+}
+
+.instr-text {
+    text-decoration: underline #cccccc;
+    font-weight: bold;
+}
+
+.rules-button{
+    height: 5vh;
+    width: 5vw;
+    margin: 1vh 1vh 1vh 0;
+    border: hidden;
+    border-radius: 10px;
+    font-family: "Comic Sans MS";
+    font-size: 1.4vh;
+}
+
+#add-rule-button {
+    background-color: #00452C;
+    color: #cccccc;
+    margin-left: auto;
+}
+
+#undo-button {
+    background-color: #727272;
+    color: #ffffff;
+}
+
+#clear-rule-button{
+    position: absolute;
+    top: 6vh;
+    left: 54.5vw;
+    height: 5vh;
+    width: 5vw;
+}
+
+.card-selector {
+    background-color: #b3d4fc;
+    font-family: "Comic Sans MS";
+    padding: 3px;
+    border-style: hidden;
+    border-radius: 5px;
+    height: 10vh;
+    margin: 0.5vw;
+}
+
+#type-selector {
+    position: relative;
+    background-color: #b3d4fc;
+    color: black;
+    width: 23%;
+    border: hidden;
+    border-radius: 10px;
+    font-size: 0.9vw;
+    margin: 10px;
+    height: 10vh;
+    padding: 1vh;
+    font-family: "Comic Sans MS";
+}
+
+#rule-hint-input {
+    background-color: #b3d4fc;
+    border-style: hidden;
+    border-radius: 10px;
+    padding: 10px;
+    width: 15%;
+    margin: 1vh;
+    margin-top: 1.3vh;
+    height: 10%;
+    font-size: 1.5vh;
+}
+
+#rule-phrase-input {
+    background-color: #b3d4fc;
+    border-style: hidden;
+    border-radius: 10px;
+    padding: 10px;
+    width: 15%;
+    margin: 1vh;
+    margin-top: 1.3vh;
+    height: 10%;
+    font-size: 1.5vh;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+

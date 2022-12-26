@@ -1,0 +1,7 @@
+1. "npm run build" from frontend directory
+2. copy index.html into src/main/resources/spark/template/freemarker and rename it to index.ftl, replacing the old index.ftl
+3. in index.ftl, find and replace "/static" with "static"
+4. put cards folder inside static folder, and copy the result into src/main/resources/, replacing the old static folder
+5. in the main chunk.js file, find and replace "cards/" with "static/cards/"
+6. "mvn package", "./run", and go to localhost:3000 to check that nothing broke (localhost:9000 should load but websocket stuff won't work)
+7. "mvn clean heroku:deploy" from project root (assuming you've already run "heroku create" and updated the configuration appName in pom.xml)

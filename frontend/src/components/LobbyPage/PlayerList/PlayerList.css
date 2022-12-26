@@ -1,0 +1,37 @@
+.player-list {
+    margin: 0 0 0 8%;
+    height:55vh;
+    width:20vw;
+    background-color: #4A0000;
+    border-radius: 21px;
+    overflow: auto;
+    text-align: center;
+}
+
+#player-box-title {
+    padding: 15px;
+    color: #cccccc;
+    font-size: min(4vw, 5vh);
+    text-decoration: underline;
+    font-family: "Sitka Subheading";
+}
+
+.player-name {
+    font-size: min(2vw, 3vh);
+    color: #cccccc;
+    font-family: "Sitka Subheading";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.X {
+    color: #A90000;
+    font-family: "Comic Sans MS";
+    font-size: min(2vh, 2vw);
+    margin: 0.5vh 1vw 0 0;
+}
+
+.X:hover {
+    cursor: pointer;
+}

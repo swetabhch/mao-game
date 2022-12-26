@@ -1,0 +1,13 @@
+.chose-player {
+    margin: 1vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.player-option {
+    box-sizing: border-box;
+    width: 50%;
+    font-family: "Comic Sans MS";
+    overflow: hidden;
+}

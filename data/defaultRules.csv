@@ -1,0 +1,12 @@
+ID,ranks,suits,isPenalty,isSkip,isReverse,message
+1,TWO,C|S|H|D,no,no,yes,
+2,ACE,C|S|H|D,no,no,yes
+3,SEVEN,C|S|H|D,yes,no,no,have a nice day
+4,KING|JACK|QUEEN,C|S|H|D,yes,no,no,all hail
+5,SIX,C|S|H|D,yes,no,no,six
+6,ACE|FIVE|TEN,C|S|H|D,yes,no,no,rome wasn't built in a day
+7,TWO|THREE|FIVE|SEVEN,C|S|H|D,yes,no,no,prime
+8,TWO|THREE|FOUR,H,yes,no,no,angery
+9,ACE|FOUR|NINE,C|S|H|D,yes,no,no,circle
+10,FOUR|EIGHT,C,yes,no,no,always lucky
+11,QUEEN,C|S|H|D,yes,no,no,i'm a believer

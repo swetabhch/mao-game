@@ -1,0 +1,61 @@
+body {
+    margin: 0 0 0 0;
+    background-color: #FFC7C7;
+
+}
+.landing-page {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
+
+.header {
+    font-size: 30vh;
+    font-family: "Dubai Light";
+    color: black;
+    height: 50vh;
+    margin-top: 0vh;
+    margin-bottom: -7vh;
+}
+
+.user-input {
+    font-family: Rockwell;
+    margin: 2vh 1vh 1vh;
+    padding: 3vh;
+    text-align: center;
+    background-color: #C4C4C4;
+    font-size: 4vh;
+    border-radius: 2px;
+    border-style: hidden;
+}
+
+#submit {
+    background-color: #4A0000;
+    color: white;
+    font-size: 2.5vh;
+    padding: 2vh 2vw;
+
+    position: absolute;
+    top: 90vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    border-style: hidden;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.toggle-label{
+    margin: 1vh 1vw 1vh 1vw;
+    font-size: 3vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-family: "Dubai Light";
+    color: black;
+}
